@@ -13,9 +13,15 @@
     <nav>
         <div class="nav-container">
             <div class="nav-logo">FitEdge Personal Training</div>
+            <!-- Hidden checkbox as toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+            <!-- Hamburger icon as label for checkbox -->
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
             <div class="nav-links">
                 <div><a href="#about">About</a></div>
                 <div><a href="#programs">Programs</a></div>
+                <div><a href="#gallery">Transformations</a></div>
                 <div><a href="#contact">Contact</a></div>
                 <button class="button-1"><a href="#contact">Book consultation</a></button>
             </div>
@@ -35,7 +41,7 @@
     </section>
     <section id="about">
         <div class="about-container">
-            <img src="./assets/images/user.png" alt="about-image" class="about-image"/>
+            <img src="./assets/images/user.png" alt="about-image" class="about-image" />
             <div class="about-content">
                 <div class="section-heading">Meet Your Trainer</div>
                 <p>Hi, I'm Alex Carter, a certified personal trainer with 7+ years of experience. I specialize in
@@ -61,7 +67,8 @@
     <section id="programs">
         <div class="programs-container">
             <div class="section-heading">Training Programs & Packages</div>
-            <div class="section-subtitle">Choose the program that fits your goals and lifestyle. All plans include personalized attention and proven results.</div>
+            <div class="section-subtitle">Choose the program that fits your goals and lifestyle. All plans include
+                personalized attention and proven results.</div>
             <div class="programs-list">
                 <div class="programs-card">
                     <div class="section-subheading">Starter Fit</div>
@@ -106,33 +113,64 @@
                     <button class="button-1"><a href="#contact">Choose plan</a></button>
                 </div>
             </div>
-            <div class="sub-text">All packages include initial fitness assessment and goal setting session. No long-term contracts required.</div>
+            <div class="sub-text">All packages include initial fitness assessment and goal setting session. No long-term
+                contracts required.</div>
         </div>
     </section>
     <section id="testimonials">
 
     </section>
-    <section id="gallery"></section>
+    <section id="gallery">
+        <div class="gallery-container">
+            <div class="section-heading">Real Transformations</div>
+            <div class="section-subtitle">See the incredible results our clients have achieved through dedication and
+                proper guidance</div>
+            <div class="gallery-cards">
+                <div class="gallery-card">
+                    <img src="./assets/images/transform.png" alt="transform" />
+                    <div>John</div>
+                    <div class="card-red">Three month progress</div>
+                    <div class="card-desc">Lost 8kg, Gained muscle</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="./assets/images/transform.png" alt="transform" />
+                    <div>John</div>
+                    <div class="card-red">Three month progress</div>
+                    <div class="card-desc">Lost 8kg, Gained muscle</div>
+                </div>
+                <div class="gallery-card">
+                    <img src="./assets/images/transform.png" alt="transform" />
+                    <div>John</div>
+                    <div class="card-red">Three month progress</div>
+                    <div class="card-desc">Lost 8kg, Gained muscle</div>
+                </div>
+            </div>
+            <div class="sub-text">*Results may vary based on individual commitment, starting point, and adherence to the
+                program. These transformations represent dedicated clients who followed their personalized training and
+                nutrition plans consistently.</div>
+        </div>
+    </section>
     <section id="contact">
         <div class="contact-container">
             <div class="section-heading">Ready to Take the First Step?</div>
-            <div class="section-subtitle">Book your free consultation today and let's create a personalized fitness plan that works for you</div>
+            <div class="section-subtitle">Book your free consultation today and let's create a personalized fitness plan
+                that works for you</div>
             <div class="contact-content">
                 <form>
                     <div class="section-subheading">Book Free Consultation</div>
                     <div class="line-1">
-                    <div class="form-group">
-                        <label for="name">Full name*</label>
-                        <input type="text" id="name" placeholder="Your name" required/>
-                    </div>
-                    <div class="form-group">
-                        <label for="number">Phone number*</label>
-                        <input type="text" id="number" placeholder="Your number" required/>
-                    </div>
+                        <div class="form-group">
+                            <label for="name">Full name*</label>
+                            <input type="text" id="name" placeholder="Your name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Phone number*</label>
+                            <input type="text" id="number" placeholder="Your number" required />
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="email">Email address*</label>
-                        <input type="email" id="email" placeholder="Your email" required/>
+                        <input type="email" id="email" placeholder="Your email" required />
                     </div>
                     <div class="form-group">
                         <label for="goal">Primary fitness goal*</label>
@@ -161,7 +199,7 @@
                             <div class="info-s">Call or WhatsApp</div>
                         </div>
                     </div>
-                    <div  class="content">
+                    <div class="content">
                         <i class="fa-solid fa-envelope content-icon"></i>
                         <div>
                             <div class="info-h">alex@fitedge.com</div>
@@ -199,7 +237,8 @@
                 <div class="footer-info">
                     <div class="section-subheading">FitEdge Personal Training</div>
                     <div class="footer-text">Stronger Every Day - Transform Your Body, Transform Your Life</div>
-                    <div class="footer-text">Certified personal training with 7+ years of experience. Specializing in sustainable fitness transformations.</div>
+                    <div class="footer-text">Certified personal training with 7+ years of experience. Specializing in
+                        sustainable fitness transformations.</div>
                 </div>
                 <div class="footer-links">
                     <div>Quick links</div>
@@ -214,7 +253,7 @@
                     <div class="footer-text">@FitEdgeTraining</div>
                 </div>
             </div>
-            <hr/>
+            <hr />
             <div class="footer-bottom">
                 <div class="footer-social">
                     <i class="fa-brands fa-instagram"></i>
