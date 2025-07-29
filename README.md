@@ -16,7 +16,7 @@ A responsive one-page website template for a personal fitness trainer.
 - **CSS3**
 - **JavaScript (Vanilla)** 
 
-# Setup & Usage
+## Setup & Usage
 1. Clone the repository:
 ```
 git clone "https://github.com/niharika-2212/FitEdge-personal-trainer.git"
@@ -24,6 +24,9 @@ cd FitEdge-personal-trainer
 ```
 
 2. Open `index.html` in browser
+
+## Live Demo
+You can view the website [here](https://niharika-2212.github.io/FitEdge-personal-trainer/)
 
 ## Author
 Niharika Manhar
