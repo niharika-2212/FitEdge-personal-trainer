@@ -9,7 +9,7 @@ A responsive one-page website template for a personal fitness trainer.
 - Testimonials carousel
 - Contact form
 - Responsive design (mobile-first)
-- Smooth scrolling and section animations
+- Smooth scrolling
 
 ## Tech Stack
 - **HTML5**
@@ -19,8 +19,8 @@ A responsive one-page website template for a personal fitness trainer.
 # Setup & Usage
 1. Clone the repository:
 ```
-git clone
-cd 
+git clone "https://github.com/niharika-2212/FitEdge-personal-trainer.git"
+cd FitEdge-personal-trainer
 ```
 
 2. Open `index.html` in browser

@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Starter Fit",
+        "description":"3 sessions/week - Perfect for beginners.",
+        "price":"4500",
+        "features":[
+        "Custom workout plan",
+        "Basic progress tracking",
+        "Weekly check-ins"
+      ]
+    },
+    {
+        "name":"Transform Plan",
+        "description":"5 sessions/week + diet guidance.",
+        "price":"8000",
+        "features":[
+        "Advanced workout plan",
+        "Personalized diet guidance",
+        "Bi-weekly progress reports"
+      ]
+    },
+    {
+        "name":"Elite Coaching",
+        "description":"Daily training + personalized meal plans.",
+        "price":"12000",
+        "features":[
+        "One-on-one daily training",
+        "Fully customized meal plan",
+        "24/7 support & progress tracking"
+      ]
+    }
+]
